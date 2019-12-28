@@ -52,3 +52,20 @@ button {
     padding: 10px;
     border-radius: 6px;
 }
+
+.btn_one {
+    background-color: #FAFAFA;
+}
+
+.btn_two {
+    background-color: #3C596C;
+    color: #CED5DA;
+}
+
+.btn_one:hover {
+    background-color: #EAF9FD;
+}
+
+.btn_two:hover {
+    background-color: #4B4B4B;
+}
