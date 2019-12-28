@@ -34,3 +34,15 @@ footer {
     background-color: #3C596C;
     color: #CED5DA;
 }
+
+.second, .fourth {
+    background-color: #FAFAFA;
+}
+
+.third {
+    background-color: #75E5AB;
+}
+
+h2 {
+    text-decoration: underline #55C0EC;
+}
