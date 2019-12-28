@@ -20,6 +20,16 @@ a {
     color: #FFD24B;
 }
 
+.item {
+    color: #CED5DA;
+    text-decoration: underline;
+}
+
 header {
     background-color: #3C596C;
+}
+
+footer {
+    background-color: #3C596C;
+    color: #CED5DA;
 }
