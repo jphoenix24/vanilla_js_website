@@ -8,6 +8,8 @@ body {
     background-color: #3C596C;
     text-align: center;
     font-size: 1.2em;
+    font-family: helvetica;
+    font-weight: 400;
 }
 
 ul {
