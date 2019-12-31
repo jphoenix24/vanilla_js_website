@@ -18,7 +18,7 @@ a {
 }
 
 .bot {
-    padding: 55px 10px;
+    padding: 57px 10px 43px 12px;
 }
 
 .btn_one {
@@ -73,6 +73,7 @@ h2:after {
     display: block; 
     margin: 0 auto; 
     width: 12%; 
+    padding-bottom: 5px;
     border-bottom: 3px solid #55C0EC; 
     margin-bottom: 40px;
 }
@@ -99,7 +100,7 @@ footer {
 
 .second {
     background-color: #FAFAFA;
-    padding: 40px 100px;
+    padding: 40px 100px 57px 100px;
 }
 
 .second_container {
@@ -119,11 +120,11 @@ footer {
 
 .fourth {
     background-color: #FAFAFA;
-    padding: 40px 100px;
+    padding: 40px 100px 56px 100px;
 }
 
 .menu {
-    padding: 10px;
+    padding: 7px 10px;
     display: flex;
     justify-content: center;
 }
@@ -148,6 +149,7 @@ footer {
     color: #0F4453;
     font-size: 4em;
     font-weight: 300;
+    padding: 50px 0 30px 0;
 }
 
 .ticky_text {
@@ -160,9 +162,7 @@ footer {
     height: 480px;
     width: 350px;
     background-color: #FAFAFA;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 20px 10px 0 10px;
 }
   
 .card-container {
