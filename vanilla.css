@@ -31,6 +31,7 @@ a {
 
 header {
     background-color: #3C596C;
+    font-size: 0.95em;
 }
 
 footer {
@@ -79,11 +80,11 @@ button {
 }
 
 .menu {
-    padding: 22px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
 
 .menu_items {
-    padding: 10px;
+    padding: 9px;
 }
