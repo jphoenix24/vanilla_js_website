@@ -8,6 +8,10 @@
     outline: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: #3C596C;
     text-align: center;
@@ -15,10 +19,6 @@ body {
     font-family: helvetica;
     font-weight: 400;
     line-height: 1.6em;
-}
-
-a {
-    text-decoration: none;
 }
 
 .bot {
@@ -81,6 +81,13 @@ button {
     padding: 12px;
 }
 
+.first {
+    background-color: #55C0EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 footer {
     background-color: #3C596C;
     color: #CED5DA;
@@ -89,9 +96,18 @@ footer {
     padding: 15px;
 }
 
+.fourth {
+    background-color: #FAFAFA;
+    padding: 40px 100px 56px 100px;
+}
+
 header {
     background-color: #3C596C;
     font-size: 0.95em;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -112,38 +128,6 @@ h2:after {
 .item {
     color: #CED5DA;
     text-decoration: underline;
-}
-
-.first {
-    background-color: #55C0EC;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.second {
-    background-color: #FAFAFA;
-    padding: 40px 100px 57px 100px;
-}
-
-.second_container {
-    display: flex;
-    margin-bottom: 50px;
-    text-align: left;
-}
-
-.second_c {
-    text-align: left;
-}
-
-.third {
-    background-color: #75E5AB;
-    padding: 40px 100px 65px 100px;
-}
-
-.fourth {
-    background-color: #FAFAFA;
-    padding: 40px 100px 56px 100px;
 }
 
 .link_to_bottom {
@@ -168,31 +152,6 @@ h2:after {
     padding-right: 110px;
 }
 
-.special, .special:visited {
-    color: #FFD24B;
-}
-
-.special:hover {
-    color: #FFFFFF;
-}
-
-.ticky_header {
-    color: #0F4453;
-    font-size: 4em;
-    font-weight: 300;
-    padding: 45px 0 22px 0;
-}
-
-.ticky_text {
-    color: #FFFFFF;
-    font-size: 1.2em;
-    font-weight: 100;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 #scroll_btn {
     display: none; 
     position: fixed;
@@ -212,4 +171,45 @@ html {
 
 #scroll_btn:hover {
     background-color: #D5B03E; 
+}
+
+.second {
+    background-color: #FAFAFA;
+    padding: 40px 100px 57px 100px;
+}
+
+.second_container {
+    display: flex;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.second_c {
+    text-align: left;
+}
+
+.special, .special:visited {
+    color: #FFD24B;
+}
+
+.special:hover {
+    color: #FFFFFF;
+}
+
+.third {
+    background-color: #75E5AB;
+    padding: 40px 100px 65px 100px;
+}
+
+.ticky_header {
+    color: #0F4453;
+    font-size: 4em;
+    font-weight: 300;
+    padding: 45px 0 22px 0;
+}
+
+.ticky_text {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 100;
 }

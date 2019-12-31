@@ -1,4 +1,4 @@
-//Add the scroll button
+// Add the scroll button
 scrollButton = document.getElementById("scroll_btn");
 
 // When user scrolls down 20px from top of the document, display the button
@@ -18,6 +18,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+// Smooth scroll down feature for nav bar and other hyperlinks
 document.addEventListener('click', function(e) {
     if (e.target.tagName !== 'A') return;
     if ((e.target.href && e.target.href.indexOf('#') != -1) && ((e.target.pathname == location.pathname) || 
@@ -25,13 +26,10 @@ document.addEventListener('click', function(e) {
           scrollAnchors(e, e.target);
     }
   });
-      
-  function scrollAnchors(e, respond = null) {
-          
+  function scrollAnchors(e, respond = null) {    
       function distanceToTop(el) { 
           return Math.floor(el.getBoundingClientRect().top); 
-      }
-          
+      }     
       e.preventDefault();
       var targetID = (respond) ? respond.getAttribute('href') : this.getAttribute('href');
       var targetAnchor = document.querySelector(targetID);
@@ -42,8 +40,7 @@ document.addEventListener('click', function(e) {
       var atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
       if (distanceToTop(targetAnchor) === 0 || atBottom) {
           targetAnchor.tabIndex = '-1';
-          targetAnchor.focus();
-              
+          targetAnchor.focus();         
           if ('history' in window) {
               window.history.pushState('', '', targetID);  
               } else {
