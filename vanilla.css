@@ -149,7 +149,7 @@ footer {
     color: #0F4453;
     font-size: 4em;
     font-weight: 300;
-    padding: 50px 0 30px 0;
+    padding: 45px 0 22px 0;
 }
 
 .ticky_text {
@@ -165,9 +165,14 @@ footer {
     margin-top: 20px 10px 0 10px;
 }
   
-.card-container {
+.card_container {
     margin-left: 10px;
     margin-right: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+.card_text {
+    padding: 12px;
 }
