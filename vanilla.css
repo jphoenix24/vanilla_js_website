@@ -58,6 +58,33 @@ button {
     border-radius: 6px;
 }
 
+.card {
+    height: 480px;
+    width: 350px;
+    background-color: #FAFAFA;
+    margin-top: 20px 10px 0 10px;
+}
+  
+.card_container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_text {
+    padding: 12px;
+}
+
+footer {
+    background-color: #3C596C;
+    color: #CED5DA;
+    font-size: 0.6em;
+    line-height: 2em;
+    padding: 15px;
+}
+
 header {
     background-color: #3C596C;
     font-size: 0.95em;
@@ -81,14 +108,6 @@ h2:after {
 .item {
     color: #CED5DA;
     text-decoration: underline;
-}
-
-footer {
-    background-color: #3C596C;
-    color: #CED5DA;
-    font-size: 0.6em;
-    line-height: 2em;
-    padding: 15px;
 }
 
 .first {
@@ -160,23 +179,4 @@ footer {
     color: #FFFFFF;
     font-size: 1.2em;
     font-weight: 100;
-}
-
-.card {
-    height: 480px;
-    width: 350px;
-    background-color: #FAFAFA;
-    margin-top: 20px 10px 0 10px;
-}
-  
-.card_container {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.card_text {
-    padding: 12px;
 }
