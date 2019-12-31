@@ -72,6 +72,7 @@ h2:after {
     margin: 0 auto; 
     width: 12%; 
     border-bottom: 3px solid #55C0EC; 
+    margin-bottom: 40px;
 }
 
 .item {
@@ -96,17 +97,17 @@ footer {
 
 .second {
     background-color: #FAFAFA;
-    padding: 40px 0;
+    padding: 40px 100px;
 }
 
 .third {
     background-color: #75E5AB;
-    padding: 40px 0;
+    padding: 40px 100px;
 }
 
 .fourth {
     background-color: #FAFAFA;
-    padding: 40px 0;
+    padding: 40px 100px;
 }
 
 .menu {
