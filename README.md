@@ -10,4 +10,4 @@ A clone of the "TickyBot" landing page to manage support tickets inside Slack
 * Flexbox 
 * Vanilla JavaScript
 ## Dependencies
-Cloned website from Chingu Bears 19: [I'm an inline style link](https://tickybott.herokuapp.com)
+Cloned website from Chingu Bears 19: [https://tickybott.herokuapp.com](https://tickybott.herokuapp.com)
