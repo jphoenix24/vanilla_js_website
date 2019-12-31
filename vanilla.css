@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #55C0EC;
+    background-color: #3C596C;
     text-align: center;
     font-size: 1.2em;
 }
@@ -35,6 +35,10 @@ footer {
     background-color: #3C596C;
     color: #CED5DA;
     font-size: 0.7em;
+}
+
+.first {
+    background-color: #55C0EC;
 }
 
 .second, .fourth {
