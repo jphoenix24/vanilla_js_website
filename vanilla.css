@@ -7,6 +7,7 @@
 body {
     background-color: #55C0EC;
     text-align: center;
+    font-size: 1.2em;
 }
 
 ul {
@@ -33,6 +34,7 @@ header {
 footer {
     background-color: #3C596C;
     color: #CED5DA;
+    font-size: 0.7em;
 }
 
 .second, .fourth {
@@ -68,4 +70,14 @@ button {
 
 .btn_two:hover {
     background-color: #4B4B4B;
+}
+
+.menu {
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_items {
+    padding: 10px;
 }
