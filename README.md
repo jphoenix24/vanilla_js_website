@@ -1,5 +1,5 @@
 # TickyBot Clone
-(https://i.postimg.cc/fTj8SsNy/Ticky-Bot-Hero-Image.png)
+![TickyBot Image](https://i.postimg.cc/fTj8SsNy/Ticky-Bot-Hero-Image.png)
 ## Overview
 A clone of the "TickyBot" landing page to manage support tickets inside Slack
 ## Features
