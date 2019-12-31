@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.bot {
+    padding: 55px 10px;
+}
+
 .btn_one {
     background-color: #FAFAFA;
 }
@@ -86,12 +90,21 @@ footer {
     padding: 9px;
 }
 
-.bot {
-    padding: 55px 10px;
-}
-
 .special {
     color: #FFD24B;
+}
+
+.ticky_header {
+    color: #0F4453;
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.ticky_text {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 1.4em;
 }
 
 ul {
