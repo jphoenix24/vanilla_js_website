@@ -10,13 +10,13 @@
 <body>
     <header>
         <nav class="menu">
-            <div class="menu_items"><a href="#" class="special">Home</a></div>
-            <div class="menu_items"><a href="#" class="special">About</a></div>
-            <div class="menu_items"><a href="#" class="special">Features</a></div>
+            <div class="menu_items"><a href="#home" class="special scroll" data-tab-index="1">Home</a></div>
+            <div class="menu_items"><a href="#about" class="special scroll" data-tab-index="2">About</a></div>
+            <div class="menu_items"><a href="#features" class="special scroll" data-tab-index="3">Features</a></div>
             <div class="menu_items"><a href="https://www.slack.com" class="special">Add to Slack</a></div>
         </nav>
     </header>
-    <div class="first">
+    <div class="first" id="home" tabindex="-1">
         <div class="one_left">
             <h1 class="ticky_header"><strong>Ticky</strong>Bot</h1><br>
             <p class="ticky_text">Let your team manage their support tickets <br>100% inside Slack</p>
@@ -28,7 +28,7 @@
         </div>
     </div>
     <button onclick="topFunction()" id="scroll_btn" title="Go to top">TOP</button>
-    <div class="second">
+    <div class="second" id="about" tabindex="-1">
         <h2>What Is <strong>Ticky</strong>Bot</h2>
         <div class="second_container">
             <div class="second_a">
@@ -47,7 +47,7 @@
             open a support ticket so other admins could look into the issue.</em>
         </div>
     </div>
-    <div class="third">
+    <div class="third" id="features" tabindex="-1">
             <h2>How It Works</h2>
             <div class="card_container">
                 <div class="card">
