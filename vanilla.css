@@ -105,6 +105,14 @@ footer {
     padding: 9px;
 }
 
+.one_left {
+    padding-left: 130px;
+}
+
+.one_right {
+    padding-right: 110px;
+}
+
 .special {
     color: #FFD24B;
 }
