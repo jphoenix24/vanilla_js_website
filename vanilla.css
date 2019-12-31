@@ -12,10 +12,6 @@ body {
     font-weight: 400;
 }
 
-ul {
-    list-style-type: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -89,4 +85,8 @@ button {
 
 .menu_items {
     padding: 9px;
+}
+
+ul {
+    list-style-type: none;
 }
