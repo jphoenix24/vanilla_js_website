@@ -24,12 +24,14 @@ a {
     background-color: #FAFAFA;
     font-size: 1.4em;
     color: #595959;
+    padding: 20px 70px;
 }
 
 .btn_two {
     background-color: #3C596C;
     font-size: 1.4em;
     color: #CED5DA;
+    padding: 20px 70px;
 }
 
 .btn_one:hover {
@@ -57,6 +59,11 @@ button {
 header {
     background-color: #3C596C;
     font-size: 0.95em;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: normal;
 }
 
 h2:after {
@@ -87,12 +94,19 @@ footer {
     align-items: center;
 }
 
-.second, .fourth {
+.second {
     background-color: #FAFAFA;
+    padding: 40px 0;
 }
 
 .third {
     background-color: #75E5AB;
+    padding: 40px 0;
+}
+
+.fourth {
+    background-color: #FAFAFA;
+    padding: 40px 0;
 }
 
 .menu {
