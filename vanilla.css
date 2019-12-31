@@ -59,8 +59,12 @@ header {
     font-size: 0.95em;
 }
 
-h2 {
-    text-decoration: underline #55C0EC;
+h2:after {
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 10%; 
+    border-bottom: 3px solid #55C0EC; 
 }
 
 .item {
