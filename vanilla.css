@@ -22,10 +22,13 @@ a {
 
 .btn_one {
     background-color: #FAFAFA;
+    font-size: 1.4em;
+    color: #595959;
 }
 
 .btn_two {
     background-color: #3C596C;
+    font-size: 1.4em;
     color: #CED5DA;
 }
 
@@ -35,6 +38,14 @@ a {
 
 .btn_two:hover {
     background-color: #4B4B4B;
+}
+
+.btn_link_one:visited {
+    color: #595959;
+}
+
+.btn_link_two:visited {
+    color: #ECEFF1;
 }
 
 button {
