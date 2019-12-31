@@ -141,8 +141,12 @@ footer {
     padding-right: 110px;
 }
 
-.special {
+.special, .special:visited {
     color: #FFD24B;
+}
+
+.special:hover {
+    color: #FFFFFF;
 }
 
 .ticky_header {
