@@ -63,6 +63,9 @@ footer {
 
 .first {
     background-color: #55C0EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .second, .fourth {
