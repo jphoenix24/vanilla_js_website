@@ -142,6 +142,10 @@ h2:after {
     padding: 40px 100px 56px 100px;
 }
 
+.link_to_bottom {
+    text-decoration: underline;
+}
+
 .menu {
     padding: 7px 10px;
     display: flex;
