@@ -37,7 +37,9 @@ header {
 footer {
     background-color: #3C596C;
     color: #CED5DA;
-    font-size: 0.7em;
+    font-size: 0.6em;
+    line-height: 2em;
+    padding: 15px;
 }
 
 .first {
