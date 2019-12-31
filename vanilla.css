@@ -101,6 +101,16 @@ footer {
     padding: 40px 100px;
 }
 
+.second_container {
+    display: flex;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.second_c {
+    text-align: left;
+}
+
 .third {
     background-color: #75E5AB;
     padding: 40px 100px;
