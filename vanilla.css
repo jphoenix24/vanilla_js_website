@@ -180,3 +180,28 @@ h2:after {
     font-size: 1.2em;
     font-weight: 100;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+#scroll_btn {
+    display: none; 
+    position: fixed;
+    bottom: 5px; 
+    right: 5px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #FFD24B; 
+    color: #3C596C; 
+    cursor: pointer; 
+    padding: 12px 8px;
+    border-radius: 5px; 
+    font-size: 18px; 
+    font-weight: 800;
+}
+
+#scroll_btn:hover {
+    background-color: #D5B03E; 
+}
