@@ -5,7 +5,7 @@ A clone of the "TickyBot" landing page to manage support tickets inside Slack
 ## Features
 * Smooth scroll from navigation bar to different headings on the page
 * Scroll to top button for ease of use
-* Pseudo-classes to alter button colors while hovering over them
+* Pseudo-classes to alter button colors while hovering over them 
 ## Tech used
 * HTML5 
 * CSS3 
